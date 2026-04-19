@@ -28,9 +28,9 @@ export default function ServicesPage() {
             { name: "Work", id: "/work" },
             { name: "Services", id: "/services" },
             { name: "About", id: "/about" },
-            { name: "Contact", id: "contact" },
+            { name: "Contact", id: "/contact" },
           ]}
-          button={{ text: "Get Started", href: "#contact" }}
+          button={{ text: "Get Started", href: "/contact" }}
         />
         <div id="services" className="pt-32 pb-20">
             <FeatureBento
@@ -64,7 +64,7 @@ export default function ServicesPage() {
                 { label: "About", href: "/about" },
                 { label: "Services", href: "/services" },
                 { label: "Work", href: "/work" },
-                { label: "Contact", href: "#contact" },
+                { label: "Contact", href: "/contact" },
               ],
             },
             {

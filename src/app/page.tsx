@@ -36,9 +36,9 @@ export default function WebAgency2Page() {
             { name: "Work", id: "/work" },
             { name: "Services", id: "/services" },
             { name: "About", id: "/about" },
-            { name: "Contact", id: "contact" },
+            { name: "Contact", id: "/contact" },
           ]}
-          button={{ text: "Get Started", href: "#contact" }}
+          button={{ text: "Get Started", href: "/contact" }}
         />
         <HeroSplitDoubleCarousel
           title="We Build Digital Experiences"
@@ -48,7 +48,7 @@ export default function WebAgency2Page() {
           tagAnimation="slide-up"
           background={{ variant: "canvas-reveal" }}
           buttons={[
-            { text: "Start Project", href: "#contact" },
+            { text: "Start Project", href: "/contact" },
             { text: "View Work", href: "/work" },
           ]}
           buttonAnimation="slide-up"
@@ -219,7 +219,7 @@ export default function WebAgency2Page() {
           description="Let's build something extraordinary together. Get in touch and let's discuss your next project."
           background={{ variant: "rotated-rays-animated" }}
           buttons={[
-            { text: "Start Your Project", href: "#contact" },
+            { text: "Start Your Project", href: "/contact" },
             { text: "View Our Work", href: "/work" },
           ]}
           buttonAnimation="slide-up"
@@ -229,7 +229,7 @@ export default function WebAgency2Page() {
           logoText="Webild"
           copyrightText="© 2026 | Webild"
           columns={[
-            { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Services", href: "/services" }, { label: "Work", href: "/work" }, { label: "Contact", href: "#contact" }] },
+            { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Services", href: "/services" }, { label: "Work", href: "/work" }, { label: "Contact", href: "/contact" }] },
             { title: "Services", items: [{ label: "Web Development", href: "#" }, { label: "SEO", href: "#" }, { label: "Branding", href: "#" }, { label: "UI/UX Design", href: "#" }] },
             { title: "Connect", items: [{ label: "Twitter", href: "#" }, { label: "LinkedIn", href: "#" }, { label: "Instagram", href: "#" }, { label: "Dribbble", href: "#" }] },
           ]}
