@@ -9,7 +9,7 @@ import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwent
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
 import TeamCardFive from "@/components/sections/team/TeamCardFive";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
-import FooterLogoEmphasis from "@/components/sections/footer/FooterLogoEmphasis";
+import FooterSimple from "@/components/sections/footer/FooterSimple";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
 import { Sparkles, Search, ArrowUpRight, TrendingUp, Award, Users } from "lucide-react";
 
@@ -176,12 +176,34 @@ export default function WebAgency2Page() {
           />
         </div>
         <div id="footer" data-section="footer">
-          <FooterLogoEmphasis
-            logoText="Webild"
+          <FooterSimple
+            bottomLeftText="© 2026 | Webild"
+            bottomRightText="All rights reserved."
             columns={[
-              { items: [{ label: "Strategy", href: "#" }, { label: "Branding", href: "#" }] },
-              { items: [{ label: "Creative", href: "#" }, { label: "Digital", href: "#" }] },
-              { items: [{ label: "Start Project", href: "/contact" }] }
+              {
+                title: "Webild",                items: [{ label: "Your Partner in Digital Growth" }]
+              },
+              {
+                title: "Services",                items: [
+                    { label: "Strategy", href: "#" },
+                    { label: "Branding & Identity", href: "#" },
+                    { label: "Creative Solutions", href: "#" },
+                    { label: "Digital Marketing", href: "#" },
+                    { label: "Social Media Management", href: "#" },
+                    { label: "Video & Photography Production", href: "#" },
+                    { label: "Web / App Design & Development", href: "#" },
+                    { label: "Media Planning & Buying", href: "#" },
+                    { label: "New Generation Technologies", href: "#" }
+                ],
+              },
+              {
+                title: "Connect",                items: [
+                    { label: "Twitter", href: "#" },
+                    { label: "LinkedIn", href: "#" },
+                    { label: "Instagram", href: "#" },
+                    { label: "Start a project", href: "/contact" }
+                ],
+              },
             ]}
           />
         </div>
