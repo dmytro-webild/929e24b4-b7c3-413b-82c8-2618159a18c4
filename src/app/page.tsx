@@ -183,8 +183,6 @@ export default function WebAgency2Page() {
               { items: [{ label: "Creative", href: "#" }, { label: "Digital", href: "#" }] },
               { items: [{ label: "Start Project", href: "/contact" }] }
             ]}
-            leftLink={{ text: "Privacy", href: "#" }}
-            rightLink={{ text: "Terms", href: "#" }}
           />
         </div>
       </ReactLenis>
