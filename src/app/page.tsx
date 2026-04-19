@@ -12,7 +12,7 @@ import FaqBase from "@/components/sections/faq/FaqBase";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
-import { Sparkles, Search, ArrowUpRight, Monitor, Shield, Zap, Puzzle, TrendingUp, Lock, Phone, MessageCircle, BookOpen, Tv, Camera, Music, Settings, Award, Users } from "lucide-react";
+import { Sparkles, Search, ArrowUpRight, TrendingUp, Award, Users } from "lucide-react";
 
 export default function WebAgency2Page() {
   return (
@@ -40,6 +40,7 @@ export default function WebAgency2Page() {
               { name: "Contact", id: "/contact" },
             ]}
             button={{ text: "Get Started", href: "/contact" }}
+            className="[&_img]:!h-20 [&_img]:!w-auto"
           />
         </div>
         <div id="hero" data-section="hero">
@@ -202,7 +203,7 @@ export default function WebAgency2Page() {
               { title: "Services", items: [{ label: "Web Development", href: "#" }, { label: "SEO", href: "#" }, { label: "Branding", href: "#" }, { label: "UI/UX Design", href: "#" }] },
               { title: "Connect", items: [{ label: "Twitter", href: "#" }, { label: "LinkedIn", href: "#" }, { label: "Instagram", href: "#" }, { label: "Dribbble", href: "#" }] },
             ]}
-            logoImageClassName="!h-12 !w-auto"
+            logoImageClassName="!h-20 !w-auto"
           />
         </div>
       </ReactLenis>
