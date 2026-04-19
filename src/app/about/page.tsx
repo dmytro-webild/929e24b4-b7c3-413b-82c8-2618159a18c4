@@ -4,7 +4,7 @@ import ReactLenis from "lenis/react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
 import TextSplitAbout from "@/components/sections/about/TextSplitAbout";
-import FooterBase from "@/components/sections/footer/FooterBase";
+import FooterSimple from "@/components/sections/footer/FooterSimple";
 
 export default function AboutPage() {
   return (
@@ -42,38 +42,38 @@ export default function AboutPage() {
                 useInvertedBackground={false}
             />
         </div>
-        <FooterBase
-          logoText="Webild"
-          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776623065949-0942gxbo.png"
-          copyrightText="© 2026 | Webild"
-          columns={[
-            {
-              title: "Company",              items: [
-                { label: "About", href: "/about" },
-                { label: "Services", href: "/services" },
-                { label: "Work", href: "/work" },
-                { label: "Contact", href: "/contact" },
-              ],
-            },
-            {
-              title: "Services",              items: [
-                { label: "Web Development", href: "#" },
-                { label: "SEO", href: "#" },
-                { label: "Branding", href: "#" },
-                { label: "UI/UX Design", href: "#" },
-              ],
-            },
-            {
-              title: "Connect",              items: [
-                { label: "Twitter", href: "#" },
-                { label: "LinkedIn", href: "#" },
-                { label: "Instagram", href: "#" },
-                { label: "Dribbble", href: "#" },
-              ],
-            },
-          ]}
-          logoImageClassName="!h-20 !w-auto"
-        />
+        <div id="footer" data-section="footer">
+          <FooterSimple
+            bottomLeftText="© 2026 | Webild"
+            bottomRightText="All rights reserved."
+            columns={[
+              {
+                title: "Webild",                items: [{ label: "Your Partner in Digital Growth" }]
+              },
+              {
+                title: "Services",                items: [
+                    { label: "Strategy", href: "#" },
+                    { label: "Branding & Identity", href: "#" },
+                    { label: "Creative Solutions", href: "#" },
+                    { label: "Digital Marketing", href: "#" },
+                    { label: "Social Media Management", href: "#" },
+                    { label: "Video & Photography Production", href: "#" },
+                    { label: "Web / App Design & Development", href: "#" },
+                    { label: "Media Planning & Buying", href: "#" },
+                    { label: "New Generation Technologies", href: "#" }
+                ],
+              },
+              {
+                title: "Connect",                items: [
+                    { label: "Twitter", href: "#" },
+                    { label: "LinkedIn", href: "#" },
+                    { label: "Instagram", href: "#" },
+                    { label: "Start a project", href: "/contact" }
+                ],
+              },
+            ]}
+          />
+        </div>
       </ReactLenis>
     </ThemeProvider>
   );
