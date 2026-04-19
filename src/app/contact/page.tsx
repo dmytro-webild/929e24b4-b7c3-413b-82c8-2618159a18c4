@@ -29,7 +29,7 @@ export default function ContactPage() {
             { name: "About", id: "/about" },
             { name: "Contact", id: "/contact" },
           ]}
-          className="[&_img]:!h-10 [&_img]:!w-auto"
+          className="[&_img]:!h-20 [&_img]:!w-auto"
         />
         <div id="contact" className="pt-32 pb-20">
           <ContactSplit
@@ -50,7 +50,7 @@ export default function ContactPage() {
             { title: "Services", items: [{ label: "Web Development", href: "#" }, { label: "SEO", href: "#" }] },
             { title: "Connect", items: [{ label: "Twitter", href: "#" }, { label: "LinkedIn", href: "#" }] },
           ]}
-          logoImageClassName="!h-12 !w-auto"
+          logoImageClassName="!h-20 !w-auto"
         />
       </ReactLenis>
     </ThemeProvider>
