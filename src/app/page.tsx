@@ -8,7 +8,6 @@ import FeatureBento from "@/components/sections/feature/FeatureBento";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
 import TeamCardFive from "@/components/sections/team/TeamCardFive";
-import FaqBase from "@/components/sections/faq/FaqBase";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
@@ -159,22 +158,6 @@ export default function WebAgency2Page() {
               { id: "1", name: "Mustafa Can Aladı", role: "Founder & Creative Director", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp" },
               { id: "2", name: "Aslı Bozkurt", role: "Art Director & Graphic Designer", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.webp" },
               { id: "3", name: "Nehir Türkay", role: "Client & Brand Executive", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.webp" },
-            ]}
-          />
-        </div>
-        <div id="faq" data-section="faq">
-          <FaqBase
-            title="Frequently Asked Questions"
-            description="Everything you need to know about working with us."
-            textboxLayout="default"
-            useInvertedBackground={false}
-            faqsAnimation="slide-up"
-            faqs={[
-              { id: "1", title: "How long does a typical project take?", content: "Most projects are completed within 2-4 weeks depending on scope and complexity. We'll provide a detailed timeline during our initial consultation." },
-              { id: "2", title: "What is your pricing structure?", content: "We offer project-based pricing tailored to your needs. Every project includes design, development, SEO optimization, and post-launch support." },
-              { id: "3", title: "Do you offer ongoing maintenance?", content: "Yes! We provide ongoing support and maintenance packages to keep your website updated, secure, and performing at its best." },
-              { id: "4", title: "Can you redesign my existing website?", content: "Absolutely. We specialize in website redesigns that modernize your brand while preserving your existing content and SEO rankings." },
-              { id: "5", title: "What technologies do you use?", content: "We build with modern technologies including Next.js, React, and Tailwind CSS to ensure fast, scalable, and maintainable websites." },
             ]}
           />
         </div>
