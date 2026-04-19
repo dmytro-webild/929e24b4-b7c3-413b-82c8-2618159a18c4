@@ -48,7 +48,7 @@ export default function ContactPage() {
           columns={[
             { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] },
             { title: "Services", items: [{ label: "Web Development", href: "#" }, { label: "SEO", href: "#" }] },
-            { title: "Connect", items: [{ label: "Twitter", href: "#" }, { label: "LinkedIn", href: "#" }] },
+            { title: "Connect", items: [{ label: "LinkedIn", href: "#" }, { label: "Instagram", href: "#" }] },
           ]}
           logoImageClassName="!h-20 !w-auto"
         />
