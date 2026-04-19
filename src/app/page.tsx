@@ -131,7 +131,7 @@ export default function WebAgency2Page() {
             metrics={[
               { id: "projects", value: "100+", title: "Projects", description: "Successfully delivered across all industries", icon: Award },
               { id: "satisfaction", value: "99%", title: "Satisfaction", description: "Client satisfaction rate and counting", icon: Users },
-              { id: "years", value: "8+", title: "Years", description: "Of crafting exceptional digital experiences", icon: TrendingUp },
+              { id: "years", value: "3+", title: "Years", description: "Of crafting exceptional digital experiences", icon: TrendingUp },
             ]}
           />
         </div>
@@ -143,9 +143,9 @@ export default function WebAgency2Page() {
             useInvertedBackground={false}
             animationType="slide-up"
             team={[
-              { id: "1", name: "Mustafa Can Aladı", role: "Founder & Creative Director", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp" },
-              { id: "2", name: "Aslı Bozkurt", role: "Art Director & Graphic Designer", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.webp" },
-              { id: "3", name: "Nehir Türkay", role: "Client & Brand Executive", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.webp" },
+              { id: "1", name: "Aslı Bozkurt", role: "Founder & Creative Director", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625564855-ydqnp606.jpg" },
+              { id: "2", name: "Aslı Bozkurt", role: "Founder & Creative Director", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625367023-os4d0ywd.png" },
+              { id: "3", name: "Nehir Türkay", role: "Client & Brand Executive", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625642052-mc0qoc0z.jpg" },
             ]}
           />
         </div>
