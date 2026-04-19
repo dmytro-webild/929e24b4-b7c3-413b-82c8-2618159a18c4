@@ -65,6 +65,8 @@ export default function AboutPage() {
             },
             {
               title: "Connect",              items: [
+                { label: "hello@portiers.co", href: "mailto:hello@portiers.co" },
+                { label: "+90 501 093 77 77", href: "tel:+905010937777" },
                 { label: "LinkedIn", href: "#" },
                 { label: "Instagram", href: "#" },
               ],
