@@ -69,16 +69,16 @@ export default function WebAgency2Page() {
             buttons={[{ text: "All Services", href: "/services" }]}
             features={[
               {
-                title: "Strategy", description: "Roadmapping, research, and brand positioning.", bentoComponent: { bentoComponent: "reveal-icon", icon: Brain },
+                title: "Strategy", description: "Roadmapping, research, and brand positioning.", bentoComponent: "reveal-icon", icon: Brain,
               },
               {
-                title: "Creative", description: "Visual identity, UI/UX, and art direction.", bentoComponent: { bentoComponent: "reveal-icon", icon: PenTool },
+                title: "Creative", description: "Visual identity, UI/UX, and art direction.", bentoComponent: "reveal-icon", icon: PenTool,
               },
               {
-                title: "Production", description: "Development, content, and high-fidelity asset delivery.", bentoComponent: { bentoComponent: "reveal-icon", icon: Wrench },
+                title: "Production", description: "Development, content, and high-fidelity asset delivery.", bentoComponent: "reveal-icon", icon: Wrench,
               },
               {
-                title: "Digital", description: "Robust web engineering, SEO, and performance optimization.", bentoComponent: { bentoComponent: "reveal-icon", icon: Globe },
+                title: "Digital", description: "Robust web engineering, SEO, and performance optimization.", bentoComponent: "reveal-icon", icon: Globe,
               },
             ]}
           />
