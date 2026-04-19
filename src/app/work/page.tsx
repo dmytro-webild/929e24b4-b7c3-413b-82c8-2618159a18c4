@@ -40,11 +40,11 @@ export default function WorkPage() {
             useInvertedBackground={false}
             cardClassName="!h-auto aspect-video"
             features={[
-              { title: "Umbra Skincare", description: "Luxury fragrance e-commerce", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-1.webp", imageAlt: "Umbra Skincare website", buttonIcon: ArrowUpRight, buttonHref: "#" },
-              { title: "Luxuria Travel", description: "Bespoke luxury travel experiences", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp", imageAlt: "Luxuria Travel website", buttonIcon: ArrowUpRight, buttonHref: "#" },
-              { title: "Dental Care", description: "Premier dental practice", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-3.webp", imageAlt: "Luxury Dental Care website", buttonIcon: ArrowUpRight, buttonHref: "#" },
-              { title: "Summit Roofing", description: "Professional roofing services", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-4.webp", imageAlt: "Summit Roofing website", buttonIcon: ArrowUpRight, buttonHref: "#" },
-              { title: "Dubai Real Estate", description: "Luxury property listings", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-5.webp", imageAlt: "Dubai Real Estate website", buttonIcon: ArrowUpRight, buttonHref: "#" },
+              { title: "Umbra Skincare", description: "Luxury fragrance e-commerce", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-1.webp?_wi=1", imageAlt: "Umbra Skincare website", buttonIcon: ArrowUpRight, buttonHref: "#" },
+              { title: "Luxuria Travel", description: "Bespoke luxury travel experiences", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp?_wi=1", imageAlt: "Luxuria Travel website", buttonIcon: ArrowUpRight, buttonHref: "#" },
+              { title: "Dental Care", description: "Premier dental practice", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-3.webp?_wi=1", imageAlt: "Luxury Dental Care website", buttonIcon: ArrowUpRight, buttonHref: "#" },
+              { title: "Summit Roofing", description: "Professional roofing services", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-4.webp?_wi=1", imageAlt: "Summit Roofing website", buttonIcon: ArrowUpRight, buttonHref: "#" },
+              { title: "Dubai Real Estate", description: "Luxury property listings", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-5.webp?_wi=1", imageAlt: "Dubai Real Estate website", buttonIcon: ArrowUpRight, buttonHref: "#" },
             ]}
           />
         </div>
