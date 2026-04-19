@@ -7,7 +7,7 @@ import HeroSplitDoubleCarousel from "@/components/sections/hero/HeroSplitDoubleC
 import FeatureBento from "@/components/sections/feature/FeatureBento";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
-import TeamCardEleven from "@/components/sections/team/TeamCardEleven";
+import TeamCardFive from "@/components/sections/team/TeamCardFive";
 import FaqBase from "@/components/sections/faq/FaqBase";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
@@ -149,20 +149,16 @@ export default function WebAgency2Page() {
           />
         </div>
         <div id="team" data-section="team">
-          <TeamCardEleven
+          <TeamCardFive
             title="Meet the Team"
             description="The creative minds behind your next project."
             textboxLayout="default"
             useInvertedBackground={false}
             animationType="slide-up"
-            groups={[
-              {
-                id: "team-group",                groupTitle: "Core Team",                members: [
-                  { id: "1", title: "Mustafa Can Aladı", subtitle: "Founder & Creative Director", detail: "Directing creative excellence for our clients.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp" },
-                  { id: "2", title: "Aslı Bozkurt", subtitle: "Art Director & Graphic Designer", detail: "Crafting beautiful visual identities.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.webp" },
-                  { id: "3", title: "Nehir Türkay", subtitle: "Client & Brand Executive", detail: "Managing brand relations and strategy.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.webp" },
-                ]
-              }
+            team={[
+              { id: "1", name: "Mustafa Can Aladı", role: "Founder & Creative Director", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp" },
+              { id: "2", name: "Aslı Bozkurt", role: "Art Director & Graphic Designer", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.webp" },
+              { id: "3", name: "Nehir Türkay", role: "Client & Brand Executive", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.webp" },
             ]}
           />
         </div>
