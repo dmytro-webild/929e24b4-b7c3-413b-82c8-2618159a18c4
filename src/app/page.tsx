@@ -66,7 +66,7 @@ export default function WebAgency2Page() {
             rightCarouselItems={[
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp?_wi=1", imageAlt: "UI UX Design - Luxuria travel" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-5.webp", imageAlt: "UI UX Design - Dental practice" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-3.webp", imageAlt: "UI UX Design - AI product builder" },
+              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-3.webp?_wi=1", imageAlt: "UI UX Design - AI product builder" },
               { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-8.webp", imageAlt: "UI UX Design - AI automation" },
             ]}
             carouselItemClassName="!aspect-[4/5]"
@@ -112,7 +112,7 @@ export default function WebAgency2Page() {
             features={[
                 { tag: "Innovation", title: "Future-Proof", subtitle: "Always ahead", description: "Building solutions with next-gen technology.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp", buttons: [{text: "Learn More"}] },
                 { tag: "Accuracy", title: "Precision", subtitle: "Data-driven", description: "Every pixel and line of code is intentional.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp", buttons: [{text: "Learn More"}] },
-                { tag: "Security", title: "Safe & Scalable", subtitle: "Trusted foundation", description: "Robust security protocols for your data.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-3.webp", buttons: [{text: "Learn More"}] }
+                { tag: "Security", title: "Safe & Scalable", subtitle: "Trusted foundation", description: "Robust security protocols for your data.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-3.webp?_wi=2", buttons: [{text: "Learn More"}] }
             ]}
           />
         </div>
