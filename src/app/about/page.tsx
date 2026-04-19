@@ -4,7 +4,7 @@ import ReactLenis from "lenis/react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
 import TextSplitAbout from "@/components/sections/about/TextSplitAbout";
-import FooterLogoEmphasis from "@/components/sections/footer/FooterLogoEmphasis";
+import FooterSimple from "@/components/sections/footer/FooterSimple";
 
 export default function AboutPage() {
   return (
@@ -16,7 +16,7 @@ export default function AboutPage() {
       sizing="medium"
       background="none"
       cardStyle="glass-elevated"
-      primaryButtonStyle="gradient"
+      primaryButtonStyle="metallic"
       secondaryButtonStyle="glass"
       headingFontWeight="medium"
     >
@@ -43,12 +43,34 @@ export default function AboutPage() {
             />
         </div>
         <div id="footer" data-section="footer">
-          <FooterLogoEmphasis
-            logoText="Webild"
+          <FooterSimple
+            bottomLeftText="© 2026 | Webild"
+            bottomRightText="All rights reserved."
             columns={[
-              { items: [{ label: "Strategy", href: "#" }, { label: "Branding", href: "#" }] },
-              { items: [{ label: "Creative", href: "#" }, { label: "Digital", href: "#" }] },
-              { items: [{ label: "Start Project", href: "/contact" }] }
+              {
+                title: "Webild",                items: [{ label: "Your Partner in Digital Growth" }]
+              },
+              {
+                title: "Services",                items: [
+                    { label: "Strategy", href: "#" },
+                    { label: "Branding & Identity", href: "#" },
+                    { label: "Creative Solutions", href: "#" },
+                    { label: "Digital Marketing", href: "#" },
+                    { label: "Social Media Management", href: "#" },
+                    { label: "Video & Photography Production", href: "#" },
+                    { label: "Web / App Design & Development", href: "#" },
+                    { label: "Media Planning & Buying", href: "#" },
+                    { label: "New Generation Technologies", href: "#" }
+                ],
+              },
+              {
+                title: "Connect",                items: [
+                    { label: "Twitter", href: "#" },
+                    { label: "LinkedIn", href: "#" },
+                    { label: "Instagram", href: "#" },
+                    { label: "Start a project", href: "/contact" }
+                ],
+              },
             ]}
           />
         </div>
