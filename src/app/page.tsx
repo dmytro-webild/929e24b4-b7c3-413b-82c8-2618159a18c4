@@ -3,7 +3,7 @@
 import ReactLenis from "lenis/react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
-import HeroOverlay from "@/components/sections/hero/HeroOverlay";
+import HeroSplitKpi from "@/components/sections/hero/HeroSplitKpi";
 import FeatureBento from "@/components/sections/feature/FeatureBento";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
@@ -42,7 +42,7 @@ export default function WebAgency2Page() {
           />
         </div>
         <div id="hero" data-section="hero">
-          <HeroOverlay
+          <HeroSplitKpi
             title="From Dream To Reality Services"
             description="Transform your brand with cutting-edge web design and development. We craft stunning websites that convert visitors into customers."
             tag="Award-Winning Agency"
@@ -51,8 +51,13 @@ export default function WebAgency2Page() {
               { text: "View Work", href: "/work" },
             ]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp?_wi=1"
-            showDimOverlay={true}
-            showBlur={true}
+            kpis={[
+                { value: "100+", label: "Projects Completed" },
+                { value: "99%", label: "Client Satisfaction" },
+                { value: "3+", label: "Years of Excellence" }
+            ]}
+            enableKpiAnimation={true}
+            imagePosition="right"
           />
         </div>
         <div id="services" data-section="services">
