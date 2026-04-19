@@ -24,7 +24,7 @@ export default function AboutPage() {
         <NavbarLayoutFloatingOverlay
           brandName="Webild"
           navItems={[
-            { name: "Work", id: "work" },
+            { name: "Work", id: "/work" },
             { name: "Services", id: "/services" },
             { name: "About", id: "/about" },
             { name: "Contact", id: "contact" },
@@ -48,7 +48,7 @@ export default function AboutPage() {
               title: "Company",              items: [
                 { label: "About", href: "/about" },
                 { label: "Services", href: "/services" },
-                { label: "Work", href: "#work" },
+                { label: "Work", href: "/work" },
                 { label: "Contact", href: "#contact" },
               ],
             },
