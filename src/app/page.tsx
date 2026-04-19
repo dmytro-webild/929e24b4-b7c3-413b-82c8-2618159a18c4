@@ -29,7 +29,7 @@ export default function WebAgency2Page() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingOverlay
-            brandName="Webild"
+            brandName="Portiers "
             navItems={[
               { name: "Work", id: "work" },
               { name: "Services", id: "services" },
