@@ -24,6 +24,7 @@ export default function ServicesPage() {
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
           brandName="Webild"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776623065949-0942gxbo.png"
           navItems={[
             { name: "Work", id: "/work" },
             { name: "Services", id: "/services" },
@@ -57,6 +58,7 @@ export default function ServicesPage() {
         </div>
         <FooterBase
           logoText="Webild"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776623065949-0942gxbo.png"
           copyrightText="© 2026 | Webild"
           columns={[
             {

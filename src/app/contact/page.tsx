@@ -23,6 +23,7 @@ export default function ContactPage() {
       <ReactLenis root>
         <NavbarLayoutFloatingOverlay
           brandName="Webild"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776623065949-0942gxbo.png"
           navItems={[
             { name: "Home", id: "/" },
             { name: "About", id: "/about" },
@@ -41,6 +42,7 @@ export default function ContactPage() {
         </div>
         <FooterBase
           logoText="Webild"
+          logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776623065949-0942gxbo.png"
           copyrightText="© 2026 | Webild"
           columns={[
             { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] },
