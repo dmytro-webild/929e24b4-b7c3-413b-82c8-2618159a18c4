@@ -99,6 +99,7 @@ export default function WebAgency2Page() {
           ratingAnimation="slide-up"
           avatarsAnimation="slide-up"
           useInvertedBackground={false}
+          avatars={[]}
         />
         <MetricCardOne
           title="Trusted by Industry Leaders"
