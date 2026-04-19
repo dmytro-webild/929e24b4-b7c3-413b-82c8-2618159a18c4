@@ -34,7 +34,7 @@ export default function WebAgency2Page() {
           brandName="Webild"
           navItems={[
             { name: "Work", id: "work" },
-            { name: "Services", id: "services" },
+            { name: "Services", id: "/services" },
             { name: "About", id: "/about" },
             { name: "Contact", id: "contact" },
           ]}
@@ -74,7 +74,7 @@ export default function WebAgency2Page() {
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="slide-up"
-          buttons={[{ text: "All Services", href: "#services" }]}
+          buttons={[{ text: "All Services", href: "/services" }]}
           buttonAnimation="slide-up"
           features={[
             {
@@ -252,7 +252,7 @@ export default function WebAgency2Page() {
             {
               title: "Company",              items: [
                 { label: "About", href: "/about" },
-                { label: "Services", href: "#services" },
+                { label: "Services", href: "/services" },
                 { label: "Work", href: "#work" },
                 { label: "Contact", href: "#contact" },
               ],
