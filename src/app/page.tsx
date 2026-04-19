@@ -144,7 +144,7 @@ export default function WebAgency2Page() {
           <FooterBase
             logoText="Webild"
             logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776623065949-0942gxbo.png"
-            copyrightText="© 2026 | Webild"
+            copyrightText="© 2026 | Portiers"
             columns={[
               { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Services", href: "/services" }, { label: "Work", href: "/work" }, { label: "Contact", href: "/contact" }] },
               { title: "Services", items: [{ label: "Strategy", href: "/services" }, { label: "Creative", href: "/services" }, { label: "Production", href: "/services" }, { label: "Digital", href: "/services" }] },
