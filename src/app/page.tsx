@@ -10,7 +10,7 @@ import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
 import TeamCardFive from "@/components/sections/team/TeamCardFive";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
-import { Sparkles, Search, ArrowUpRight, TrendingUp, Award, Users } from "lucide-react";
+import { Sparkles, ArrowUpRight, TrendingUp, Award, Users, Brain, PenTool, Wrench, Globe } from "lucide-react";
 
 export default function WebAgency2Page() {
   return (
@@ -74,7 +74,7 @@ export default function WebAgency2Page() {
         <div id="services" data-section="services">
           <FeatureBento
             title="Our Services"
-            description="We offer a full suite of digital services to help your brand stand out online."
+            description="Comprehensive solutions categorized for your business growth."
             textboxLayout="default"
             useInvertedBackground={false}
             animationType="slide-up"
@@ -82,22 +82,16 @@ export default function WebAgency2Page() {
             buttonAnimation="slide-up"
             features={[
               {
-                title: "Strategy",                description: "We optimize your website to rank higher on search engines and drive organic traffic.",                bentoComponent: "marquee",                centerIcon: Search,
-                variant: "text",                texts: ["Keywords", "Backlinks", "Meta Tags", "Organic Traffic", "Rankings", "Analytics", "SERP", "Indexing"],
+                title: "Strategy",                description: "Roadmapping, research, and brand positioning.",                bentoComponent: "reveal-icon",                icon: Brain,
               },
               {
-                title: "Web Development",                description: "Custom-built websites that are fast, responsive, and designed to convert.",                bentoComponent: "media-stack",                items: [
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-2.webp?_wi=2", imageAlt: "Web project - AgentFlow AI platform" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp?_wi=2", imageAlt: "Web project - Architecture studio" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp?_wi=2", imageAlt: "Web project - Summit Roofing" },
-                ],
+                title: "Creative",                description: "Visual identity, UI/UX, and art direction.",                bentoComponent: "reveal-icon",                icon: PenTool,
               },
               {
-                title: "Branding",                description: "Build a memorable brand identity that resonates with your audience.",                bentoComponent: "media-stack",                items: [
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp?_wi=2", imageAlt: "Brand project 1" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp?_wi=2", imageAlt: "Brand project 2" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp?_wi=2", imageAlt: "Brand project 3" },
-                ],
+                title: "Production",                description: "Development, content, and high-fidelity asset delivery.",                bentoComponent: "reveal-icon",                icon: Wrench,
+              },
+              {
+                title: "Digital",                description: "Robust web engineering, SEO, and performance optimization.",                bentoComponent: "reveal-icon",                icon: Globe,
               },
             ]}
           />
