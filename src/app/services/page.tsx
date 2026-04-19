@@ -46,9 +46,9 @@ export default function ServicesPage() {
                     },
                     {
                         title: "Web Development",                        description: "Custom-built websites that are fast, responsive, and designed to convert.",                        bentoComponent: "media-stack",                        items: [
-                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-2.webp", imageAlt: "Web project - AgentFlow AI platform" },
-                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp", imageAlt: "Web project - Architecture studio" },
-                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp", imageAlt: "Web project - Summit Roofing" },
+                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-2.webp?_wi=1", imageAlt: "Web project - AgentFlow AI platform" },
+                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp?_wi=1", imageAlt: "Web project - Architecture studio" },
+                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp?_wi=1", imageAlt: "Web project - Summit Roofing" },
                         ],
                     },
                     {
