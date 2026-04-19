@@ -33,7 +33,7 @@ export default function WebAgency2Page() {
         <NavbarLayoutFloatingOverlay
           brandName="Webild"
           navItems={[
-            { name: "Work", id: "work" },
+            { name: "Work", id: "/work" },
             { name: "Services", id: "/services" },
             { name: "About", id: "/about" },
             { name: "Contact", id: "contact" },
@@ -49,7 +49,7 @@ export default function WebAgency2Page() {
           background={{ variant: "canvas-reveal" }}
           buttons={[
             { text: "Start Project", href: "#contact" },
-            { text: "View Work", href: "#work" },
+            { text: "View Work", href: "/work" },
           ]}
           buttonAnimation="slide-up"
           carouselPosition="right"
@@ -102,25 +102,15 @@ export default function WebAgency2Page() {
           description="A selection of projects we've crafted for clients across industries."
           textboxLayout="default"
           useInvertedBackground={false}
-          buttons={[{ text: "View All Work", href: "#work" }]}
+          buttons={[{ text: "View All Work", href: "/work" }]}
           buttonAnimation="slide-up"
           cardClassName="!h-auto aspect-video"
           features={[
-            {
-              title: "Umbra Skincare",              description: "Luxury fragrance e-commerce",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-1.webp",              imageAlt: "Umbra Skincare website",              buttonIcon: ArrowUpRight,
-              buttonHref: "#"},
-            {
-              title: "Luxuria Travel",              description: "Bespoke luxury travel experiences",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp",              imageAlt: "Luxuria Travel website",              buttonIcon: ArrowUpRight,
-              buttonHref: "#"},
-            {
-              title: "Dental Care",              description: "Premier dental practice",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-3.webp",              imageAlt: "Luxury Dental Care website",              buttonIcon: ArrowUpRight,
-              buttonHref: "#"},
-            {
-              title: "Summit Roofing",              description: "Professional roofing services",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-4.webp",              imageAlt: "Summit Roofing website",              buttonIcon: ArrowUpRight,
-              buttonHref: "#"},
-            {
-              title: "Dubai Real Estate",              description: "Luxury property listings",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-5.webp",              imageAlt: "Dubai Real Estate website",              buttonIcon: ArrowUpRight,
-              buttonHref: "#"},
+            { title: "Umbra Skincare", description: "Luxury fragrance e-commerce", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-1.webp", imageAlt: "Umbra Skincare website", buttonIcon: ArrowUpRight, buttonHref: "#" },
+            { title: "Luxuria Travel", description: "Bespoke luxury travel experiences", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp", imageAlt: "Luxuria Travel website", buttonIcon: ArrowUpRight, buttonHref: "#" },
+            { title: "Dental Care", description: "Premier dental practice", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-3.webp", imageAlt: "Luxury Dental Care website", buttonIcon: ArrowUpRight, buttonHref: "#" },
+            { title: "Summit Roofing", description: "Professional roofing services", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-4.webp", imageAlt: "Summit Roofing website", buttonIcon: ArrowUpRight, buttonHref: "#" },
+            { title: "Dubai Real Estate", description: "Luxury property listings", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-5.webp", imageAlt: "Dubai Real Estate website", buttonIcon: ArrowUpRight, buttonHref: "#" },
           ]}
         />
         <FeatureBento
@@ -156,24 +146,16 @@ export default function WebAgency2Page() {
               completedLabel: "Live"},
             {
               title: "Seamless Integrations",              description: "Connect with the tools you already use — CRMs, analytics, payments, and more.",              bentoComponent: "orbiting-icons",              centerIcon: Puzzle,
-              items: [
-                { icon: Shield },
-                { icon: Monitor },
-                { icon: Zap },
-                { icon: TrendingUp },
-              ],
+              items: [{ icon: Shield }, { icon: Monitor }, { icon: Zap }, { icon: TrendingUp }],
             },
-            {
-              title: "Growth Trends",              description: "Data-driven insights to optimize your search presence and drive traffic.",              bentoComponent: "line-chart"},
+            { title: "Growth Trends", description: "Data-driven insights to optimize your search presence and drive traffic.", bentoComponent: "line-chart" },
           ]}
         />
         <TestimonialCardFifteen
           testimonial="Webild completely transformed our online presence. The team delivered a stunning website that exceeded our expectations and doubled our conversion rate."
           rating={5}
           author="— Maria Santos, CEO at Luxuria Travel"
-          avatars={[
-            { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp", alt: "Client" },
-          ]}
+          avatars={[{ src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp", alt: "Client" }]}
           ratingAnimation="slide-up"
           avatarsAnimation="slide-up"
           useInvertedBackground={false}
@@ -198,12 +180,10 @@ export default function WebAgency2Page() {
           useInvertedBackground={false}
           animationType="slide-up"
           negativeCard={{
-            items: [
-              "Generic templates with no personality",              "Slow load times and poor performance",              "No SEO strategy or search visibility",              "Outdated design that hurts credibility",              "No ongoing support after launch"],
+            items: ["Generic templates with no personality", "Slow load times and poor performance", "No SEO strategy or search visibility", "Outdated design that hurts credibility", "No ongoing support after launch"],
           }}
           positiveCard={{
-            items: [
-              "Custom designs tailored to your brand",              "Lightning-fast performance on all devices",              "Built-in SEO to drive organic traffic",              "Modern design that builds trust",              "Dedicated support and maintenance"],
+            items: ["Custom designs tailored to your brand", "Lightning-fast performance on all devices", "Built-in SEO to drive organic traffic", "Modern design that builds trust", "Dedicated support and maintenance"],
           }}
         />
         <TeamCardFive
@@ -240,7 +220,7 @@ export default function WebAgency2Page() {
           background={{ variant: "rotated-rays-animated" }}
           buttons={[
             { text: "Start Your Project", href: "#contact" },
-            { text: "View Our Work", href: "#work" },
+            { text: "View Our Work", href: "/work" },
           ]}
           buttonAnimation="slide-up"
           useInvertedBackground={false}
@@ -249,30 +229,9 @@ export default function WebAgency2Page() {
           logoText="Webild"
           copyrightText="© 2026 | Webild"
           columns={[
-            {
-              title: "Company",              items: [
-                { label: "About", href: "/about" },
-                { label: "Services", href: "/services" },
-                { label: "Work", href: "#work" },
-                { label: "Contact", href: "#contact" },
-              ],
-            },
-            {
-              title: "Services",              items: [
-                { label: "Web Development", href: "#" },
-                { label: "SEO", href: "#" },
-                { label: "Branding", href: "#" },
-                { label: "UI/UX Design", href: "#" },
-              ],
-            },
-            {
-              title: "Connect",              items: [
-                { label: "Twitter", href: "#" },
-                { label: "LinkedIn", href: "#" },
-                { label: "Instagram", href: "#" },
-                { label: "Dribbble", href: "#" },
-              ],
-            },
+            { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Services", href: "/services" }, { label: "Work", href: "/work" }, { label: "Contact", href: "#contact" }] },
+            { title: "Services", items: [{ label: "Web Development", href: "#" }, { label: "SEO", href: "#" }, { label: "Branding", href: "#" }, { label: "UI/UX Design", href: "#" }] },
+            { title: "Connect", items: [{ label: "Twitter", href: "#" }, { label: "LinkedIn", href: "#" }, { label: "Instagram", href: "#" }, { label: "Dribbble", href: "#" }] },
           ]}
         />
       </ReactLenis>
