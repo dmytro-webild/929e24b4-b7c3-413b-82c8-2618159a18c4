@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import FeatureBento from "@/components/sections/feature/FeatureBento";
-import { Search, Zap, Puzzle } from "lucide-react";
+import { Target, Lightbulb, Factory, Cpu } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -35,28 +35,22 @@ export default function ServicesPage() {
         <div id="services" className="pt-32 pb-20">
             <FeatureBento
                 title="Our Services"
-                description="We offer a full suite of digital services to help your brand stand out online."
+                description="We build brands, content and digital experiences."
                 textboxLayout="default"
                 useInvertedBackground={false}
                 animationType="slide-up"
                 features={[
                     {
-                        title: "SEO",                        description: "We optimize your website to rank higher on search engines and drive organic traffic.",                        bentoComponent: "marquee",                        centerIcon: Search,
-                        variant: "text",                        texts: ["Keywords", "Backlinks", "Meta Tags", "Organic Traffic", "Rankings", "Analytics", "SERP", "Indexing"],
+                        title: "Strategy",                        description: "Defining the vision, goals, and roadmap to position your brand for sustainable market growth.",                        bentoComponent: "reveal-icon",                        icon: Target,
                     },
                     {
-                        title: "Web Development",                        description: "Custom-built websites that are fast, responsive, and designed to convert.",                        bentoComponent: "media-stack",                        items: [
-                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-2.webp?_wi=1", imageAlt: "Web project - AgentFlow AI platform" },
-                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp?_wi=1", imageAlt: "Web project - Architecture studio" },
-                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp?_wi=1", imageAlt: "Web project - Summit Roofing" },
-                        ],
+                        title: "Creative",                        description: "Conceptualizing unique identities and visual languages that resonate with your target audience.",                        bentoComponent: "reveal-icon",                        icon: Lightbulb,
                     },
                     {
-                        title: "Branding",                        description: "Build a memorable brand identity that resonates with your audience.",                        bentoComponent: "media-stack",                        items: [
-                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp?_wi=2", imageAlt: "Brand project 1" },
-                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp?_wi=2", imageAlt: "Brand project 2" },
-                            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp?_wi=2", imageAlt: "Brand project 3" },
-                        ],
+                        title: "Production",                        description: "Expert execution of high-quality content, assets, and design artifacts that tell your story.",                        bentoComponent: "reveal-icon",                        icon: Factory,
+                    },
+                    {
+                        title: "Digital",                        description: "Engineering robust, scalable digital experiences that convert and perform across all platforms.",                        bentoComponent: "reveal-icon",                        icon: Cpu,
                     },
                 ]}
             />
