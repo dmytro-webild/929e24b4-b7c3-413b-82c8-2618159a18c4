@@ -10,7 +10,6 @@ import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
 import TeamCardFive from "@/components/sections/team/TeamCardFive";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
-import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
 import { Sparkles, Search, ArrowUpRight, TrendingUp, Award, Users } from "lucide-react";
 
 export default function WebAgency2Page() {
@@ -44,7 +43,7 @@ export default function WebAgency2Page() {
         </div>
         <div id="hero" data-section="hero">
           <HeroSplitDoubleCarousel
-            title="We Build Digital Experiences"
+            title=" From Dream To Reality Services"
             description="Transform your brand with cutting-edge web design and development. We craft stunning websites that convert visitors into customers."
             tag="Award-Winning Agency"
             tagIcon={Sparkles}
@@ -83,7 +82,7 @@ export default function WebAgency2Page() {
             buttonAnimation="slide-up"
             features={[
               {
-                title: "SEO",                description: "We optimize your website to rank higher on search engines and drive organic traffic.",                bentoComponent: "marquee",                centerIcon: Search,
+                title: "Strategy",                description: "We optimize your website to rank higher on search engines and drive organic traffic.",                bentoComponent: "marquee",                centerIcon: Search,
                 variant: "text",                texts: ["Keywords", "Backlinks", "Meta Tags", "Organic Traffic", "Rankings", "Analytics", "SERP", "Indexing"],
               },
               {
@@ -121,17 +120,6 @@ export default function WebAgency2Page() {
             ]}
           />
         </div>
-        <div id="testimonials" data-section="testimonials">
-          <TestimonialCardFifteen
-            testimonial="Webild completely transformed our online presence. The team delivered a stunning website that exceeded our expectations and doubled our conversion rate."
-            rating={5}
-            author="— Maria Santos, CEO at Luxuria Travel"
-            avatars={[{ src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp", alt: "Client" }]}
-            ratingAnimation="slide-up"
-            avatarsAnimation="slide-up"
-            useInvertedBackground={false}
-          />
-        </div>
         <div id="metrics" data-section="metrics">
           <MetricCardOne
             title="Trusted by Industry Leaders"
@@ -143,7 +131,7 @@ export default function WebAgency2Page() {
             metrics={[
               { id: "projects", value: "100+", title: "Projects", description: "Successfully delivered across all industries", icon: Award },
               { id: "satisfaction", value: "99%", title: "Satisfaction", description: "Client satisfaction rate and counting", icon: Users },
-              { id: "years", value: "8+", title: "Years", description: "Of crafting exceptional digital experiences", icon: TrendingUp },
+              { id: "years", value: "3+", title: "Years", description: "Of crafting exceptional digital experiences", icon: TrendingUp },
             ]}
           />
         </div>
@@ -155,9 +143,9 @@ export default function WebAgency2Page() {
             useInvertedBackground={false}
             animationType="slide-up"
             team={[
-              { id: "1", name: "Mustafa Can Aladı", role: "Founder & Creative Director", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp" },
-              { id: "2", name: "Aslı Bozkurt", role: "Art Director & Graphic Designer", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.webp" },
-              { id: "3", name: "Nehir Türkay", role: "Client & Brand Executive", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.webp" },
+              { id: "1", name: "Mustafa Can Aladı", role: " ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625564855-ydqnp606.jpg" },
+              { id: "2", name: "Mustafa Can Aladı", role: " ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625367023-os4d0ywd.png" },
+              { id: "3", name: "Nehir Türkay", role: "Client & Brand Executive", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625642052-mc0qoc0z.jpg" },
             ]}
           />
         </div>
