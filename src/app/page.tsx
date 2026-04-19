@@ -183,7 +183,7 @@ export default function WebAgency2Page() {
             columns={[
               { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Services", href: "/services" }, { label: "Work", href: "/work" }, { label: "Contact", href: "/contact" }] },
               { title: "Services", items: [{ label: "Web Development", href: "#" }, { label: "SEO", href: "#" }, { label: "Branding", href: "#" }, { label: "UI/UX Design", href: "#" }] },
-              { title: "Connect", items: [{ label: "Twitter", href: "#" }, { label: "LinkedIn", href: "#" }, { label: "Instagram", href: "#" }, { label: "Dribbble", href: "#" }] },
+              { title: "Connect", items: [{ label: "LinkedIn", href: "#" }, { label: "Instagram", href: "#" }] },
             ]}
             logoImageClassName="!h-20 !w-auto"
           />

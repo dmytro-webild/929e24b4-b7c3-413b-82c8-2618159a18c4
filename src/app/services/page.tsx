@@ -80,10 +80,8 @@ export default function ServicesPage() {
             },
             {
               title: "Connect",              items: [
-                { label: "Twitter", href: "#" },
                 { label: "LinkedIn", href: "#" },
                 { label: "Instagram", href: "#" },
-                { label: "Dribbble", href: "#" },
               ],
             },
           ]}
