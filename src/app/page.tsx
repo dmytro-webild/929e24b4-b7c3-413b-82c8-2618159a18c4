@@ -3,14 +3,14 @@
 import ReactLenis from "lenis/react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
-import HeroSplitDoubleCarousel from "@/components/sections/hero/HeroSplitDoubleCarousel";
+import HeroOverlay from "@/components/sections/hero/HeroOverlay";
 import FeatureBento from "@/components/sections/feature/FeatureBento";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
 import TeamCardFive from "@/components/sections/team/TeamCardFive";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
-import { Sparkles, ArrowUpRight, TrendingUp, Award, Users, Brain, PenTool, Wrench, Globe } from "lucide-react";
+import { ArrowUpRight, TrendingUp, Award, Users, Brain, PenTool, Wrench, Globe } from "lucide-react";
 
 export default function WebAgency2Page() {
   return (
@@ -42,33 +42,17 @@ export default function WebAgency2Page() {
           />
         </div>
         <div id="hero" data-section="hero">
-          <HeroSplitDoubleCarousel
-            title=" From Dream To Reality Services"
+          <HeroOverlay
+            title="From Dream To Reality Services"
             description="Transform your brand with cutting-edge web design and development. We craft stunning websites that convert visitors into customers."
             tag="Award-Winning Agency"
-            tagIcon={Sparkles}
-            tagAnimation="slide-up"
-            background={{ variant: "canvas-reveal" }}
             buttons={[
               { text: "Start Project", href: "/contact" },
               { text: "View Work", href: "/work" },
             ]}
-            buttonAnimation="slide-up"
-            carouselPosition="right"
-            leftCarouselItems={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp?_wi=1", imageAlt: "UI UX Design - Daily Life app" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp?_wi=1", imageAlt: "UI UX Design - SaaS platform" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-6.webp", imageAlt: "UI UX Design - Luminé skincare" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-7.webp", imageAlt: "UI UX Design - Online courses" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-9.webp", imageAlt: "UI UX Design - Business coach" },
-            ]}
-            rightCarouselItems={[
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp?_wi=1", imageAlt: "UI UX Design - Luxuria travel" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-5.webp", imageAlt: "UI UX Design - Dental practice" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-3.webp", imageAlt: "UI UX Design - AI product builder" },
-              { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-8.webp", imageAlt: "UI UX Design - AI automation" },
-            ]}
-            carouselItemClassName="!aspect-[4/5]"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp?_wi=1"
+            showDimOverlay={true}
+            showBlur={true}
           />
         </div>
         <div id="services" data-section="services">
