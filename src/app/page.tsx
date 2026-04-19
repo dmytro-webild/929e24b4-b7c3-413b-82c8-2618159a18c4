@@ -30,15 +30,12 @@ export default function WebAgency2Page() {
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingOverlay
             brandName="Webild"
-            logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776623065949-0942gxbo.png"
             navItems={[
-              { name: "Work", id: "/work" },
-              { name: "Services", id: "/services" },
-              { name: "About", id: "/about" },
-              { name: "Contact", id: "/contact" },
+              { name: "Work", id: "work" },
+              { name: "Services", id: "services" },
+              { name: "About", id: "about" },
+              { name: "Contact", id: "contact" },
             ]}
-            button={{ text: "Get Started", href: "/contact" }}
-            className="[&_img]:!h-20 [&_img]:!w-auto"
           />
         </div>
         <div id="hero" data-section="hero">
@@ -50,6 +47,7 @@ export default function WebAgency2Page() {
               { text: "Start Project", href: "/contact" },
               { text: "View Work", href: "/work" },
             ]}
+            background={{ variant: "rotated-rays-animated" }}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp?_wi=1"
             kpis={[
                 { value: "100+", label: "Projects Completed" },
@@ -58,6 +56,7 @@ export default function WebAgency2Page() {
             ]}
             enableKpiAnimation={true}
             imagePosition="right"
+            mediaAnimation="none"
           />
         </div>
         <div id="services" data-section="services">
@@ -68,19 +67,18 @@ export default function WebAgency2Page() {
             useInvertedBackground={false}
             animationType="slide-up"
             buttons={[{ text: "All Services", href: "/services" }]}
-            buttonAnimation="slide-up"
             features={[
               {
-                title: "Strategy",                description: "Roadmapping, research, and brand positioning.",                bentoComponent: "reveal-icon",                icon: Brain,
+                title: "Strategy", description: "Roadmapping, research, and brand positioning.", bentoComponent: { bentoComponent: "reveal-icon", icon: Brain },
               },
               {
-                title: "Creative",                description: "Visual identity, UI/UX, and art direction.",                bentoComponent: "reveal-icon",                icon: PenTool,
+                title: "Creative", description: "Visual identity, UI/UX, and art direction.", bentoComponent: { bentoComponent: "reveal-icon", icon: PenTool },
               },
               {
-                title: "Production",                description: "Development, content, and high-fidelity asset delivery.",                bentoComponent: "reveal-icon",                icon: Wrench,
+                title: "Production", description: "Development, content, and high-fidelity asset delivery.", bentoComponent: { bentoComponent: "reveal-icon", icon: Wrench },
               },
               {
-                title: "Digital",                description: "Robust web engineering, SEO, and performance optimization.",                bentoComponent: "reveal-icon",                icon: Globe,
+                title: "Digital", description: "Robust web engineering, SEO, and performance optimization.", bentoComponent: { bentoComponent: "reveal-icon", icon: Globe },
               },
             ]}
           />
@@ -92,14 +90,11 @@ export default function WebAgency2Page() {
             textboxLayout="default"
             useInvertedBackground={false}
             buttons={[{ text: "View All Work", href: "/work" }]}
-            buttonAnimation="slide-up"
-            cardClassName="!h-auto aspect-video"
             features={[
               { title: "Umbra Skincare", description: "Luxury fragrance e-commerce", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-1.webp?_wi=2", imageAlt: "Umbra Skincare website", buttonIcon: ArrowUpRight, buttonHref: "#" },
               { title: "Luxuria Travel", description: "Bespoke luxury travel experiences", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp?_wi=2", imageAlt: "Luxuria Travel website", buttonIcon: ArrowUpRight, buttonHref: "#" },
               { title: "Dental Care", description: "Premier dental practice", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-3.webp?_wi=2", imageAlt: "Luxury Dental Care website", buttonIcon: ArrowUpRight, buttonHref: "#" },
               { title: "Summit Roofing", description: "Professional roofing services", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-4.webp?_wi=2", imageAlt: "Summit Roofing website", buttonIcon: ArrowUpRight, buttonHref: "#" },
-              { title: "Dubai Real Estate", description: "Luxury property listings", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-5.webp?_wi=2", imageAlt: "Dubai Real Estate website", buttonIcon: ArrowUpRight, buttonHref: "#" },
             ]}
           />
         </div>
@@ -107,8 +102,6 @@ export default function WebAgency2Page() {
           <MetricCardOne
             title="Trusted by Industry Leaders"
             description="Years of experience building digital products that drive real results."
-            textboxLayout="default"
-            useInvertedBackground={false}
             gridVariant="uniform-all-items-equal"
             animationType="slide-up"
             metrics={[
@@ -142,7 +135,6 @@ export default function WebAgency2Page() {
               { text: "Start Your Project", href: "/contact" },
               { text: "View Our Work", href: "/work" },
             ]}
-            buttonAnimation="slide-up"
             useInvertedBackground={false}
           />
         </div>
@@ -156,7 +148,6 @@ export default function WebAgency2Page() {
               { title: "Services", items: [{ label: "Strategy", href: "/services" }, { label: "Creative", href: "/services" }, { label: "Production", href: "/services" }, { label: "Digital", href: "/services" }] },
               { title: "Connect", items: [{ label: "hello@portiers.co", href: "mailto:hello@portiers.co" }, { label: "+90 501 093 77 77", href: "tel:+905010937777" }, { label: "LinkedIn", href: "#" }, { label: "Instagram", href: "#" }] },
             ]}
-            logoImageClassName="!h-20 !w-auto"
           />
         </div>
       </ReactLenis>
