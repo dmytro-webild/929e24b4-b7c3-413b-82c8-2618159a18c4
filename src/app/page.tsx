@@ -10,7 +10,6 @@ import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
 import TeamCardFive from "@/components/sections/team/TeamCardFive";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
-import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
 import { Sparkles, Search, ArrowUpRight, TrendingUp, Award, Users } from "lucide-react";
 
 export default function WebAgency2Page() {
@@ -119,17 +118,6 @@ export default function WebAgency2Page() {
               { title: "Summit Roofing", description: "Professional roofing services", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-4.webp?_wi=2", imageAlt: "Summit Roofing website", buttonIcon: ArrowUpRight, buttonHref: "#" },
               { title: "Dubai Real Estate", description: "Luxury property listings", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-5.webp?_wi=2", imageAlt: "Dubai Real Estate website", buttonIcon: ArrowUpRight, buttonHref: "#" },
             ]}
-          />
-        </div>
-        <div id="testimonials" data-section="testimonials">
-          <TestimonialCardFifteen
-            testimonial="Webild completely transformed our online presence. The team delivered a stunning website that exceeded our expectations and doubled our conversion rate."
-            rating={5}
-            author="— Maria Santos, CEO at Luxuria Travel"
-            avatars={[{ src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp", alt: "Client" }]}
-            ratingAnimation="slide-up"
-            avatarsAnimation="slide-up"
-            useInvertedBackground={false}
           />
         </div>
         <div id="metrics" data-section="metrics">
