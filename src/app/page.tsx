@@ -150,6 +150,7 @@ export default function WebAgency2Page() {
               { title: "Services", items: [{ label: "Strategy", href: "/services" }, { label: "Creative", href: "/services" }, { label: "Production", href: "/services" }, { label: "Digital", href: "/services" }] },
               { title: "Connect", items: [{ label: "hello@portiers.co", href: "mailto:hello@portiers.co" }, { label: "+90 501 093 77 77", href: "tel:+905010937777" }, { label: "LinkedIn", href: "#" }, { label: "Instagram", href: "#" }] },
             ]}
+            logoImageClassName="!h-32 !w-auto"
           />
         </div>
       </ReactLenis>

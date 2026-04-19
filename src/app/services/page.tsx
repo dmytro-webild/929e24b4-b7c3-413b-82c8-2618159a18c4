@@ -87,7 +87,7 @@ export default function ServicesPage() {
               ],
             },
           ]}
-          logoImageClassName="!h-20 !w-auto"
+          logoImageClassName="!h-32 !w-auto"
         />
       </ReactLenis>
     </ThemeProvider>
