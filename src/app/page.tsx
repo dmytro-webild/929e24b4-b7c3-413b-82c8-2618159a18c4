@@ -35,7 +35,7 @@ export default function WebAgency2Page() {
           navItems={[
             { name: "Work", id: "work" },
             { name: "Services", id: "services" },
-            { name: "About", id: "about" },
+            { name: "About", id: "/about" },
             { name: "Contact", id: "contact" },
           ]}
           button={{ text: "Get Started", href: "#contact" }}
@@ -78,28 +78,18 @@ export default function WebAgency2Page() {
           buttonAnimation="slide-up"
           features={[
             {
-              title: "SEO",
-              description: "We optimize your website to rank higher on search engines and drive organic traffic.",
-              bentoComponent: "marquee",
-              centerIcon: Search,
-              variant: "text",
-              texts: ["Keywords", "Backlinks", "Meta Tags", "Organic Traffic", "Rankings", "Analytics", "SERP", "Indexing"],
+              title: "SEO",              description: "We optimize your website to rank higher on search engines and drive organic traffic.",              bentoComponent: "marquee",              centerIcon: Search,
+              variant: "text",              texts: ["Keywords", "Backlinks", "Meta Tags", "Organic Traffic", "Rankings", "Analytics", "SERP", "Indexing"],
             },
             {
-              title: "Web Development",
-              description: "Custom-built websites that are fast, responsive, and designed to convert.",
-              bentoComponent: "media-stack",
-              items: [
+              title: "Web Development",              description: "Custom-built websites that are fast, responsive, and designed to convert.",              bentoComponent: "media-stack",              items: [
                 { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-2.webp", imageAlt: "Web project - AgentFlow AI platform" },
                 { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp", imageAlt: "Web project - Architecture studio" },
                 { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp", imageAlt: "Web project - Summit Roofing" },
               ],
             },
             {
-              title: "Branding",
-              description: "Build a memorable brand identity that resonates with your audience.",
-              bentoComponent: "media-stack",
-              items: [
+              title: "Branding",              description: "Build a memorable brand identity that resonates with your audience.",              bentoComponent: "media-stack",              items: [
                 { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp", imageAlt: "Brand project 1" },
                 { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp", imageAlt: "Brand project 2" },
                 { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp", imageAlt: "Brand project 3" },
@@ -117,45 +107,20 @@ export default function WebAgency2Page() {
           cardClassName="!h-auto aspect-video"
           features={[
             {
-              title: "Umbra Skincare",
-              description: "Luxury fragrance e-commerce",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-1.webp",
-              imageAlt: "Umbra Skincare website",
-              buttonIcon: ArrowUpRight,
-              buttonHref: "#",
-            },
+              title: "Umbra Skincare",              description: "Luxury fragrance e-commerce",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-1.webp",              imageAlt: "Umbra Skincare website",              buttonIcon: ArrowUpRight,
+              buttonHref: "#"},
             {
-              title: "Luxuria Travel",
-              description: "Bespoke luxury travel experiences",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp",
-              imageAlt: "Luxuria Travel website",
-              buttonIcon: ArrowUpRight,
-              buttonHref: "#",
-            },
+              title: "Luxuria Travel",              description: "Bespoke luxury travel experiences",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-2.webp",              imageAlt: "Luxuria Travel website",              buttonIcon: ArrowUpRight,
+              buttonHref: "#"},
             {
-              title: "Dental Care",
-              description: "Premier dental practice",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-3.webp",
-              imageAlt: "Luxury Dental Care website",
-              buttonIcon: ArrowUpRight,
-              buttonHref: "#",
-            },
+              title: "Dental Care",              description: "Premier dental practice",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-3.webp",              imageAlt: "Luxury Dental Care website",              buttonIcon: ArrowUpRight,
+              buttonHref: "#"},
             {
-              title: "Summit Roofing",
-              description: "Professional roofing services",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-4.webp",
-              imageAlt: "Summit Roofing website",
-              buttonIcon: ArrowUpRight,
-              buttonHref: "#",
-            },
+              title: "Summit Roofing",              description: "Professional roofing services",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-4.webp",              imageAlt: "Summit Roofing website",              buttonIcon: ArrowUpRight,
+              buttonHref: "#"},
             {
-              title: "Dubai Real Estate",
-              description: "Luxury property listings",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-5.webp",
-              imageAlt: "Dubai Real Estate website",
-              buttonIcon: ArrowUpRight,
-              buttonHref: "#",
-            },
+              title: "Dubai Real Estate",              description: "Luxury property listings",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/project-5.webp",              imageAlt: "Dubai Real Estate website",              buttonIcon: ArrowUpRight,
+              buttonHref: "#"},
           ]}
         />
         <FeatureBento
@@ -166,14 +131,9 @@ export default function WebAgency2Page() {
           animationType="slide-up"
           features={[
             {
-              title: "All Devices Optimization",
-              description: "Pixel-perfect websites that look stunning on every screen size and device.",
-              bentoComponent: "phone",
-              statusIcon: Lock,
+              title: "All Devices Optimization",              description: "Pixel-perfect websites that look stunning on every screen size and device.",              bentoComponent: "phone",              statusIcon: Lock,
               alertIcon: Monitor,
-              alertTitle: "Responsive check",
-              alertMessage: "All breakpoints passed",
-              apps: [
+              alertTitle: "Responsive check",              alertMessage: "All breakpoints passed",              apps: [
                 { name: "Phone", icon: Phone },
                 { name: "SMS", icon: MessageCircle },
                 { name: "Books", icon: BookOpen },
@@ -185,29 +145,17 @@ export default function WebAgency2Page() {
               ],
             },
             {
-              title: "Secure Hosting",
-              description: "Enterprise-grade security and 99.9% uptime for your website.",
-              bentoComponent: "reveal-icon",
-              icon: Shield,
+              title: "Secure Hosting",              description: "Enterprise-grade security and 99.9% uptime for your website.",              bentoComponent: "reveal-icon",              icon: Shield,
             },
             {
-              title: "Fast Turnaround",
-              description: "From concept to launch in record time without sacrificing quality.",
-              bentoComponent: "timeline",
-              heading: "Project Launch",
-              subheading: "Week 1",
-              items: [
+              title: "Fast Turnaround",              description: "From concept to launch in record time without sacrificing quality.",              bentoComponent: "timeline",              heading: "Project Launch",              subheading: "Week 1",              items: [
                 { label: "Discovery & wireframes", detail: "Day 1-3" },
                 { label: "Design & development", detail: "Day 4-10" },
                 { label: "Testing & deployment", detail: "Day 11-14" },
               ],
-              completedLabel: "Live",
-            },
+              completedLabel: "Live"},
             {
-              title: "Seamless Integrations",
-              description: "Connect with the tools you already use — CRMs, analytics, payments, and more.",
-              bentoComponent: "orbiting-icons",
-              centerIcon: Puzzle,
+              title: "Seamless Integrations",              description: "Connect with the tools you already use — CRMs, analytics, payments, and more.",              bentoComponent: "orbiting-icons",              centerIcon: Puzzle,
               items: [
                 { icon: Shield },
                 { icon: Monitor },
@@ -216,10 +164,7 @@ export default function WebAgency2Page() {
               ],
             },
             {
-              title: "Growth Trends",
-              description: "Data-driven insights to optimize your search presence and drive traffic.",
-              bentoComponent: "line-chart",
-            },
+              title: "Growth Trends",              description: "Data-driven insights to optimize your search presence and drive traffic.",              bentoComponent: "line-chart"},
           ]}
         />
         <TestimonialCardFifteen
@@ -254,21 +199,11 @@ export default function WebAgency2Page() {
           animationType="slide-up"
           negativeCard={{
             items: [
-              "Generic templates with no personality",
-              "Slow load times and poor performance",
-              "No SEO strategy or search visibility",
-              "Outdated design that hurts credibility",
-              "No ongoing support after launch",
-            ],
+              "Generic templates with no personality",              "Slow load times and poor performance",              "No SEO strategy or search visibility",              "Outdated design that hurts credibility",              "No ongoing support after launch"],
           }}
           positiveCard={{
             items: [
-              "Custom designs tailored to your brand",
-              "Lightning-fast performance on all devices",
-              "Built-in SEO to drive organic traffic",
-              "Modern design that builds trust",
-              "Dedicated support and maintenance",
-            ],
+              "Custom designs tailored to your brand",              "Lightning-fast performance on all devices",              "Built-in SEO to drive organic traffic",              "Modern design that builds trust",              "Dedicated support and maintenance"],
           }}
         />
         <TeamCardFive
@@ -315,17 +250,15 @@ export default function WebAgency2Page() {
           copyrightText="© 2026 | Webild"
           columns={[
             {
-              title: "Company",
-              items: [
-                { label: "About", href: "#about" },
+              title: "Company",              items: [
+                { label: "About", href: "/about" },
                 { label: "Services", href: "#services" },
                 { label: "Work", href: "#work" },
                 { label: "Contact", href: "#contact" },
               ],
             },
             {
-              title: "Services",
-              items: [
+              title: "Services",              items: [
                 { label: "Web Development", href: "#" },
                 { label: "SEO", href: "#" },
                 { label: "Branding", href: "#" },
@@ -333,8 +266,7 @@ export default function WebAgency2Page() {
               ],
             },
             {
-              title: "Connect",
-              items: [
+              title: "Connect",              items: [
                 { label: "Twitter", href: "#" },
                 { label: "LinkedIn", href: "#" },
                 { label: "Instagram", href: "#" },
