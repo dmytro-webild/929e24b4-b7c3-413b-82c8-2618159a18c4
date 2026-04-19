@@ -7,7 +7,7 @@ import HeroSplitDoubleCarousel from "@/components/sections/hero/HeroSplitDoubleC
 import FeatureBento from "@/components/sections/feature/FeatureBento";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
-import TeamCardFive from "@/components/sections/team/TeamCardFive";
+import TeamCardEleven from "@/components/sections/team/TeamCardEleven";
 import FaqBase from "@/components/sections/faq/FaqBase";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterBase from "@/components/sections/footer/FooterBase";
@@ -84,18 +84,18 @@ export default function WebAgency2Page() {
             buttonAnimation="slide-up"
             features={[
               {
-                title: "SEO",              description: "We optimize your website to rank higher on search engines and drive organic traffic.",              bentoComponent: "marquee",              centerIcon: Search,
-                variant: "text",              texts: ["Keywords", "Backlinks", "Meta Tags", "Organic Traffic", "Rankings", "Analytics", "SERP", "Indexing"],
+                title: "SEO",                description: "We optimize your website to rank higher on search engines and drive organic traffic.",                bentoComponent: "marquee",                centerIcon: Search,
+                variant: "text",                texts: ["Keywords", "Backlinks", "Meta Tags", "Organic Traffic", "Rankings", "Analytics", "SERP", "Indexing"],
               },
               {
-                title: "Web Development",              description: "Custom-built websites that are fast, responsive, and designed to convert.",              bentoComponent: "media-stack",              items: [
+                title: "Web Development",                description: "Custom-built websites that are fast, responsive, and designed to convert.",                bentoComponent: "media-stack",                items: [
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-2.webp?_wi=2", imageAlt: "Web project - AgentFlow AI platform" },
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-1.webp?_wi=2", imageAlt: "Web project - Architecture studio" },
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/dev-3.webp?_wi=2", imageAlt: "Web project - Summit Roofing" },
                 ],
               },
               {
-                title: "Branding",              description: "Build a memorable brand identity that resonates with your audience.",              bentoComponent: "media-stack",              items: [
+                title: "Branding",                description: "Build a memorable brand identity that resonates with your audience.",                bentoComponent: "media-stack",                items: [
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp?_wi=2", imageAlt: "Brand project 1" },
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp?_wi=2", imageAlt: "Brand project 2" },
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp?_wi=2", imageAlt: "Brand project 3" },
@@ -149,17 +149,20 @@ export default function WebAgency2Page() {
           />
         </div>
         <div id="team" data-section="team">
-          <TeamCardFive
+          <TeamCardEleven
             title="Meet the Team"
             description="The creative minds behind your next project."
             textboxLayout="default"
             useInvertedBackground={false}
             animationType="slide-up"
-            mediaClassName="object-[65%_center]"
-            team={[
-              { id: "1", name: "Sarah Miller", role: "Lead Developer", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp", imageAlt: "Sarah Miller" },
-              { id: "2", name: "Valentina Reyes", role: "Creative Director", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.webp", imageAlt: "Valentina Reyes" },
-              { id: "3", name: "Carlos Mendoza", role: "UX Designer", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.webp", imageAlt: "Carlos Mendoza" },
+            groups={[
+              {
+                id: "team-group",                groupTitle: "Core Team",                members: [
+                  { id: "1", title: "Mustafa Can Aladı", subtitle: "Founder & Creative Director", detail: "Directing creative excellence for our clients.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.webp" },
+                  { id: "2", title: "Aslı Bozkurt", subtitle: "Art Director & Graphic Designer", detail: "Crafting beautiful visual identities.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.webp" },
+                  { id: "3", title: "Nehir Türkay", subtitle: "Client & Brand Executive", detail: "Managing brand relations and strategy.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.webp" },
+                ]
+              }
             ]}
           />
         </div>
