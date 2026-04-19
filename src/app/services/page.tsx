@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import FeatureBento from "@/components/sections/feature/FeatureBento";
-import { Target, Lightbulb, Factory, Cpu } from "lucide-react";
+import { Target, Lightbulb, Factory, Cpu, Brain, PenTool, Wrench, Globe } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -35,22 +35,22 @@ export default function ServicesPage() {
         <div id="services" className="pt-32 pb-20">
             <FeatureBento
                 title="Our Services"
-                description="We build brands, content and digital experiences."
+                description="Comprehensive solutions categorized for your business growth."
                 textboxLayout="default"
                 useInvertedBackground={false}
                 animationType="slide-up"
                 features={[
                     {
-                        title: "Strategy",                        description: "Defining the vision, goals, and roadmap to position your brand for sustainable market growth.",                        bentoComponent: "reveal-icon",                        icon: Target,
+                        title: "Strategy",                        description: "Roadmapping, research, and brand positioning.",                        bentoComponent: "reveal-icon",                        icon: Brain,
                     },
                     {
-                        title: "Creative",                        description: "Conceptualizing unique identities and visual languages that resonate with your target audience.",                        bentoComponent: "reveal-icon",                        icon: Lightbulb,
+                        title: "Creative",                        description: "Visual identity, UI/UX, and art direction.",                        bentoComponent: "reveal-icon",                        icon: PenTool,
                     },
                     {
-                        title: "Production",                        description: "Expert execution of high-quality content, assets, and design artifacts that tell your story.",                        bentoComponent: "reveal-icon",                        icon: Factory,
+                        title: "Production",                        description: "Development, content, and high-fidelity asset delivery.",                        bentoComponent: "reveal-icon",                        icon: Wrench,
                     },
                     {
-                        title: "Digital",                        description: "Engineering robust, scalable digital experiences that convert and perform across all platforms.",                        bentoComponent: "reveal-icon",                        icon: Cpu,
+                        title: "Digital",                        description: "Robust web engineering, SEO, and performance optimization.",                        bentoComponent: "reveal-icon",                        icon: Globe,
                     },
                 ]}
             />
