@@ -27,9 +27,9 @@ export default function AboutPage() {
             { name: "Work", id: "/work" },
             { name: "Services", id: "/services" },
             { name: "About", id: "/about" },
-            { name: "Contact", id: "contact" },
+            { name: "Contact", id: "/contact" },
           ]}
-          button={{ text: "Get Started", href: "#contact" }}
+          button={{ text: "Get Started", href: "/contact" }}
         />
         <div id="about">
             <TextSplitAbout
@@ -49,7 +49,7 @@ export default function AboutPage() {
                 { label: "About", href: "/about" },
                 { label: "Services", href: "/services" },
                 { label: "Work", href: "/work" },
-                { label: "Contact", href: "#contact" },
+                { label: "Contact", href: "/contact" },
               ],
             },
             {
