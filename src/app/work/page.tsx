@@ -17,7 +17,7 @@ export default function WorkPage() {
       sizing="medium"
       background="none"
       cardStyle="glass-elevated"
-      primaryButtonStyle="metallic"
+      primaryButtonStyle="gradient"
       secondaryButtonStyle="glass"
       headingFontWeight="medium"
     >
@@ -58,8 +58,6 @@ export default function WorkPage() {
               { items: [{ label: "Creative", href: "#" }, { label: "Digital", href: "#" }] },
               { items: [{ label: "Start Project", href: "/contact" }] }
             ]}
-            leftLink={{ text: "Privacy", href: "#" }}
-            rightLink={{ text: "Terms", href: "#" }}
           />
         </div>
       </ReactLenis>
