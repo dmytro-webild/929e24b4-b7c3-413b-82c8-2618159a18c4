@@ -6,7 +6,6 @@ import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatin
 import HeroSplitDoubleCarousel from "@/components/sections/hero/HeroSplitDoubleCarousel";
 import FeatureBento from "@/components/sections/feature/FeatureBento";
 import FeatureCardTwentySix from "@/components/sections/feature/FeatureCardTwentySix";
-import FeatureCardSixteen from "@/components/sections/feature/FeatureCardSixteen";
 import MetricCardOne from "@/components/sections/metrics/MetricCardOne";
 import TeamCardFive from "@/components/sections/team/TeamCardFive";
 import FaqBase from "@/components/sections/faq/FaqBase";
@@ -40,6 +39,7 @@ export default function WebAgency2Page() {
             { name: "Contact", id: "/contact" },
           ]}
           button={{ text: "Get Started", href: "/contact" }}
+          className="[&_img]:!h-10 [&_img]:!w-auto"
         />
         <HeroSplitDoubleCarousel
           title="We Build Digital Experiences"
@@ -235,6 +235,7 @@ export default function WebAgency2Page() {
             { title: "Services", items: [{ label: "Web Development", href: "#" }, { label: "SEO", href: "#" }, { label: "Branding", href: "#" }, { label: "UI/UX Design", href: "#" }] },
             { title: "Connect", items: [{ label: "Twitter", href: "#" }, { label: "LinkedIn", href: "#" }, { label: "Instagram", href: "#" }, { label: "Dribbble", href: "#" }] },
           ]}
+          logoImageClassName="!h-12 !w-auto"
         />
       </ReactLenis>
     </ThemeProvider>
