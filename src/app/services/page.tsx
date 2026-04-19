@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import FeatureBento from "@/components/sections/feature/FeatureBento";
-import { Target, Lightbulb, Factory, Cpu, Brain, PenTool, Wrench, Globe } from "lucide-react";
+import { Brain, PenTool, Wrench, Globe } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -25,7 +25,7 @@ export default function ServicesPage() {
         <NavbarLayoutFloatingOverlay
           brandName="Webild"
           navItems={[
-            { name: "Work", id: "work" },
+            { name: "Work", id: "/work" },
             { name: "Services", id: "/services" },
             { name: "About", id: "/about" },
             { name: "Contact", id: "contact" },
@@ -63,7 +63,7 @@ export default function ServicesPage() {
               title: "Company",              items: [
                 { label: "About", href: "/about" },
                 { label: "Services", href: "/services" },
-                { label: "Work", href: "#work" },
+                { label: "Work", href: "/work" },
                 { label: "Contact", href: "#contact" },
               ],
             },
