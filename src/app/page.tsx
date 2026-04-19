@@ -143,8 +143,8 @@ export default function WebAgency2Page() {
             useInvertedBackground={false}
             animationType="slide-up"
             team={[
-              { id: "1", name: "Aslı Bozkurt", role: " ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625564855-ydqnp606.jpg" },
-              { id: "2", name: "Aslı Bozkurt", role: " ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625367023-os4d0ywd.png" },
+              { id: "1", name: "Aslı Bozkurt", role: "Design Lead", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625564855-ydqnp606.jpg" },
+              { id: "2", name: "Mustafa Can Aladı", role: "Director", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625367023-os4d0ywd.png" },
               { id: "3", name: "Nehir Türkay", role: "Client & Brand Executive", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CXcyzSiT3oNai1DT9KTH3YAuVM/uploaded-1776625642052-mc0qoc0z.jpg" },
             ]}
           />
