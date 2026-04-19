@@ -104,6 +104,8 @@ export default function WebAgency2Page() {
             description="Years of experience building digital products that drive real results."
             gridVariant="uniform-all-items-equal"
             animationType="slide-up"
+            textboxLayout="default"
+            useInvertedBackground={false}
             metrics={[
               { id: "projects", value: "100+", title: "Projects", description: "Successfully delivered across all industries", icon: Award },
               { id: "satisfaction", value: "99%", title: "Satisfaction", description: "Client satisfaction rate and counting", icon: Users },
