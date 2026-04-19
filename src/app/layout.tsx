@@ -12,7 +12,6 @@ import { Montserrat } from "next/font/google";
 
 export const metadata: Metadata = { title: 'Webild Agency | Premium Web Design & Digital Strategy', description: 'Elevate your brand with high-performance web design and strategic digital solutions. We build modern, conversion-focused websites for forward-thinking businesses.' };
 
-
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
