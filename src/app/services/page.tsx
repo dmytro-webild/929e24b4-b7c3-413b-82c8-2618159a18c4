@@ -33,56 +33,27 @@ export default function ServicesPage() {
           button={{ text: "Get Started", href: "#contact" }}
         />
         <div id="services" className="pt-32 pb-20">
-            <FeatureBento
-                title="Our Services"
-                description="We build brands, content and digital experiences."
-                textboxLayout="default"
-                useInvertedBackground={false}
-                animationType="slide-up"
-                features={[
-                    {
-                        title: "Strategy",                        description: "Defining the vision, goals, and roadmap to position your brand for sustainable market growth.",                        bentoComponent: "reveal-icon",                        icon: Target,
-                    },
-                    {
-                        title: "Creative",                        description: "Conceptualizing unique identities and visual languages that resonate with your target audience.",                        bentoComponent: "reveal-icon",                        icon: Lightbulb,
-                    },
-                    {
-                        title: "Production",                        description: "Expert execution of high-quality content, assets, and design artifacts that tell your story.",                        bentoComponent: "reveal-icon",                        icon: Factory,
-                    },
-                    {
-                        title: "Digital",                        description: "Engineering robust, scalable digital experiences that convert and perform across all platforms.",                        bentoComponent: "reveal-icon",                        icon: Cpu,
-                    },
-                ]}
-            />
+          <FeatureBento
+            title="Our Premium Services"
+            description="Precision-engineered strategies to elevate your brand presence."
+            textboxLayout="default"
+            useInvertedBackground={false}
+            animationType="slide-up"
+            features={[
+              { title: "Strategy", description: "Defining the vision, goals, and roadmap to position your brand for sustainable growth.", bentoComponent: "reveal-icon", icon: Target },
+              { title: "Creative", description: "Conceptualizing unique identities and visual languages that resonate deeply with audiences.", bentoComponent: "reveal-icon", icon: Lightbulb },
+              { title: "Production", description: "Expert execution of high-quality content, assets, and design artifacts that tell your story.", bentoComponent: "reveal-icon", icon: Factory },
+              { title: "Digital", description: "Engineering robust, scalable digital experiences that convert and perform across all platforms.", bentoComponent: "reveal-icon", icon: Cpu },
+            ]}
+            className="max-w-7xl mx-auto"
+          />
         </div>
         <FooterBase
           logoText="Webild"
           copyrightText="© 2026 | Webild"
           columns={[
-            {
-              title: "Company",              items: [
-                { label: "About", href: "/about" },
-                { label: "Services", href: "/services" },
-                { label: "Work", href: "#work" },
-                { label: "Contact", href: "#contact" },
-              ],
-            },
-            {
-              title: "Services",              items: [
-                { label: "Web Development", href: "#" },
-                { label: "SEO", href: "#" },
-                { label: "Branding", href: "#" },
-                { label: "UI/UX Design", href: "#" },
-              ],
-            },
-            {
-              title: "Connect",              items: [
-                { label: "Twitter", href: "#" },
-                { label: "LinkedIn", href: "#" },
-                { label: "Instagram", href: "#" },
-                { label: "Dribbble", href: "#" },
-              ],
-            },
+            { title: "Company", items: [{ label: "About", href: "/about" }, { label: "Services", href: "/services" }] },
+            { title: "Connect", items: [{ label: "Twitter", href: "#" }, { label: "LinkedIn", href: "#" }] },
           ]}
         />
       </ReactLenis>
