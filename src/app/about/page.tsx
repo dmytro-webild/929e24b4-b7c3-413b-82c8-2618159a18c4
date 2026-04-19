@@ -31,6 +31,7 @@ export default function AboutPage() {
             { name: "Contact", id: "/contact" },
           ]}
           button={{ text: "Get Started", href: "/contact" }}
+          className="[&_img]:!h-10 [&_img]:!w-auto"
         />
         <div id="about">
             <TextSplitAbout
@@ -71,6 +72,7 @@ export default function AboutPage() {
               ],
             },
           ]}
+          logoImageClassName="!h-12 !w-auto"
         />
       </ReactLenis>
     </ThemeProvider>

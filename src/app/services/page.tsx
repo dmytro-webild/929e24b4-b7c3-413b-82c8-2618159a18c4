@@ -32,6 +32,7 @@ export default function ServicesPage() {
             { name: "Contact", id: "/contact" },
           ]}
           button={{ text: "Get Started", href: "/contact" }}
+          className="[&_img]:!h-10 [&_img]:!w-auto"
         />
         <div id="services" className="pt-32 pb-20">
             <FeatureBento
@@ -86,6 +87,7 @@ export default function ServicesPage() {
               ],
             },
           ]}
+          logoImageClassName="!h-12 !w-auto"
         />
       </ReactLenis>
     </ThemeProvider>

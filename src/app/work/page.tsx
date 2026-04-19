@@ -32,6 +32,7 @@ export default function WorkPage() {
             { name: "Contact", id: "/contact" },
           ]}
           button={{ text: "Get Started", href: "/contact" }}
+          className="[&_img]:!h-10 [&_img]:!w-auto"
         />
         <div id="work" className="pt-32 pb-20">
           <FeatureCardTwentySix
@@ -58,6 +59,7 @@ export default function WorkPage() {
             { title: "Services", items: [{ label: "Web Development", href: "#" }, { label: "SEO", href: "#" }, { label: "Branding", href: "#" }, { label: "UI/UX Design", href: "#" }] },
             { title: "Connect", items: [{ label: "Twitter", href: "#" }, { label: "LinkedIn", href: "#" }, { label: "Instagram", href: "#" }, { label: "Dribbble", href: "#" }] },
           ]}
+          logoImageClassName="!h-12 !w-auto"
         />
       </ReactLenis>
     </ThemeProvider>
