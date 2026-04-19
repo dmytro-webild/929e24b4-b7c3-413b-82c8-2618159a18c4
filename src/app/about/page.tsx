@@ -57,10 +57,10 @@ export default function AboutPage() {
             },
             {
               title: "Services",              items: [
-                { label: "Web Development", href: "#" },
-                { label: "SEO", href: "#" },
-                { label: "Branding", href: "#" },
-                { label: "UI/UX Design", href: "#" },
+                { label: "Strategy", href: "/services" },
+                { label: "Creative", href: "/services" },
+                { label: "Production", href: "/services" },
+                { label: "Digital", href: "/services" },
               ],
             },
             {
